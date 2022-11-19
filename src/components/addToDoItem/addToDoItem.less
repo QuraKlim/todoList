@@ -1,0 +1,48 @@
+.form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    margin-top: 30px;
+    border: 1px solid black;
+    &__descr {
+        padding: 20px 15px;
+        border: 1px solid black;
+        &::placeholder {
+            text-align: center;
+        }
+    }
+    &__title {
+        padding: 0 15px;
+        border: 1px solid black;
+        &::placeholder {
+            text-align: center;
+        }
+    }
+    &__date {
+        padding: 0 15px;
+        border: 1px solid black;
+        &::placeholder {
+            text-align: center;
+        }                                    
+    }
+    &__submit {
+        margin-top: 20px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    &__file {
+        padding: 15px 5px;
+        border: 1px solid black;
+        position: relative;
+    }
+    &__photo {
+        width: 100px;
+        height: auto;
+    }
+    &__delete-file {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+}

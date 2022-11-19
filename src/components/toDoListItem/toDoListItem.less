@@ -1,0 +1,68 @@
+.list-item {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 35px 45px auto 40% 150px 300px;
+    position: relative;
+    min-height: 100px;
+    &__number {
+        font-size: 20px;
+        margin-bottom: 0;
+        border: 2px solid black;
+        padding: 3px;
+        background-color: inherit;
+        text-align: center;
+    }
+    &__checkbox-wrap {
+        padding: 10px;
+        border: 2px solid black;
+        background-color: inherit;
+        display: flex;
+        align-items: center;
+    }
+    &__checkbox {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    &__title {
+        font-size: 20px;
+        margin-bottom: 0;
+        border: 2px solid black;
+        background-color: inherit;
+    }
+    &__descr {
+        font-size: 16px;
+        margin-bottom: 0;
+        border: 2px solid black;
+        background-color: inherit;
+        min-width: 40%;
+    }
+    &__date {
+        font-size: 20px;
+        margin-bottom: 0;
+        border: 2px solid black;
+        background-color: inherit;
+    }
+    &__delete {
+        position: absolute;
+        left: -35px;
+        top: 18px;
+        cursor: pointer;
+    }
+    &__file {
+        border: 2px solid black;
+        background-color: inherit;
+        padding: 10px;
+        position: relative;
+    }
+    &__img {
+        width: 70%;
+        height: auto;
+    }
+    &__delete-file {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+}

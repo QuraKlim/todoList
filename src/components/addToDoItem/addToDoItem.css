@@ -1,0 +1,48 @@
+.form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.form__descr {
+  padding: 20px 15px;
+  border: 1px solid black;
+}
+.form__descr::placeholder {
+  text-align: center;
+}
+.form__title {
+  padding: 0 15px;
+  border: 1px solid black;
+}
+.form__title::placeholder {
+  text-align: center;
+}
+.form__date {
+  padding: 0 15px;
+  border: 1px solid black;
+}
+.form__date::placeholder {
+  text-align: center;
+}
+.form__submit {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.form__file {
+  padding: 15px 5px;
+  border: 1px solid black;
+  position: relative;
+}
+.form__photo {
+  width: 100px;
+  height: auto;
+}
+.form__delete-file {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
